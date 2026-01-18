@@ -1,0 +1,47 @@
+# Titanic Survival Prediction 
+## 📊 Dataset
+The Titanic dataset contains information about passengers such as:
+- Age
+- Gender
+- Passenger Class
+- Fare
+- Embarkation Port
+- Survival Status
+
+Target variable:
+- `Survived`  
+  - 0 → Did not survive  
+  - 1 → Survived
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+---
+
+## 🔍 Steps Performed
+1. Loaded and explored the Titanic dataset  
+2. Handled missing values in Age and Embarked columns  
+3. Removed unnecessary columns  
+4. Converted categorical features into numerical format  
+5. Split the dataset into training and testing sets  
+6. Trained a **Logistic Regression** model  
+7. Evaluated model performance using accuracy and classification metrics  
+
+---
+
+## 🤖 Machine Learning Model
+- **Algorithm Used:** Logistic Regression  
+- **Reason:** Simple, efficient, and suitable for binary classification problems  
+
+---
+
+## 📈 Model Performance
+- **Accuracy:** ~81% 
+
